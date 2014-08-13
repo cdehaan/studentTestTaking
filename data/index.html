@@ -1,0 +1,17 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="classtrack.css">
+<script src="jquery-2.0.3.js"></script>
+<script src="classtrack.js"></script>
+</head>
+
+<body onLoad="init();">
+<div id="rootDiv" style="position:absolute; top:0px; left:0px; right:0px; bottom:0px; border:0px solid rgba(255, 0, 128, .5); background-color:rgba(0,0,0,0);">
+<canvas id="rootCanvas" style="position:absolute; top:0px; left:0px; width:100%; height:100%;"></canvas>
+<div id="summaryDiv" class="summaryDiv" >Loading...</div>
+</div>
+<div id="blanketDiv" style="position:absolute; z-index:15; top:0px; left:0px; right:0px; bottom:0px; border:0px solid rgba(255, 0, 128, .5); background-color:rgb(0,0,0); opacity:0; visibility:hidden;"></div>
+<div id="expandButtonDiv" class="answerInset button white" style="position:absolute; z-index:20; border:0px solid rgba(255, 0, 128, .5); opacity:0; padding-left: 20px; visibility:hidden; text-align:left;"></div>
+</body>
+</html>

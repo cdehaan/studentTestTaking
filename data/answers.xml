@@ -1,0 +1,56 @@
+<answers>
+<test id="1">
+  <question id="1">1
+    <text>What's the story topic?</text>
+    <choice id="1">Love</choice>
+    <choice id="2">History</choice>
+    <choice id="3">Family</choice>
+    <choice id="4">War</choice>
+    <reason id="1">Yes, 3 people are in love.</reason>
+    <reason id="2">The story is not in the past.</reason>
+    <reason id="3">The people are not </reason>
+    <reason id="4">Not for this</reason>
+  </question>
+  <question id="2">1
+    <text>What does it suggest?</text>
+    <choice id="1">See the world</choice>
+    <choice id="2">Stay at home</choice>
+    <choice id="3">san</choice>
+    <choice id="4">yon</choice>
+    <reason id="1">This is the first question</reason>
+    <reason id="2">It says home is safer, not better.</reason>
+    <reason id="3">Is a crowd</reason>
+    <reason id="4">Not for this</reason>
+  </question>
+  <question id="3">3
+    <text>When should we move?</text>
+    <choice id="1">ichi</choice>
+    <choice id="2">ni</choice>
+    <choice id="3">When we feel ready</choice>
+    <choice id="4">yon</choice>
+    <reason id="1">This is the first question</reason>
+    <reason id="2">Too close</reason>
+    <reason id="3">Is a crowd</reason>
+    <reason id="4">Not for this</reason>
+  </question>
+  <question id="4">4
+    <text>What is least important?</text>
+    <choice id="1">ichi</choice>
+    <choice id="2">ni</choice>
+    <choice id="3">san</choice>
+    <choice id="4">Your wealth</choice>
+    <reason id="1">This is the first question</reason>
+    <reason id="2">Too close</reason>
+    <reason id="3">Is a crowd</reason>
+    <reason id="4">Not for this</reason>
+  </question>
+</test>
+<test id="2">
+  <question id="1">2</question>
+  <question id="2">3</question>
+  <question id="3">4</question>
+  <question id="4">1</question>
+  <question id="5">2</question>
+  <question id="6">3</question>
+</test>
+</answers>

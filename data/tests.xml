@@ -1,0 +1,324 @@
+<answers>
+<test id="1">
+  <question id="1">3
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="2">2
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="3">4
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="4">2
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="5">1
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="6">3
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+</test>
+
+<test id="2">
+  <question id="1">2
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="2">4
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="3">3
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="4">1
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="5">2
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="6">3
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+</test>
+
+<test id="3">
+  <question id="1">1
+    <text>What is the story topic?</text>
+    <choice id="1">Love</choice>
+    <choice id="2">History</choice>
+    <choice id="3">Family</choice>
+    <choice id="4">War</choice>
+    <reason id="1">This is the first question</reason>
+    <reason id="2">Too close</reason>
+    <reason id="3">Is a crowd</reason>
+    <reason id="4">Not for this</reason>
+  </question>
+  <question id="2">3
+    <text>What does it suggest?</text>
+    <choice id="1">See the world</choice>
+    <choice id="2">Stay at home</choice>
+    <choice id="3">san</choice>
+    <choice id="4">yon</choice>
+    <reason id="1">This is the first question</reason>
+    <reason id="2">It says home is safer, not better.</reason>
+    <reason id="3">Is a crowd</reason>
+    <reason id="4">Not for this</reason>
+  </question>
+  <question id="3">4
+    <text>When should we move?</text>
+    <choice id="1">ichi</choice>
+    <choice id="2">ni</choice>
+    <choice id="3">When we feel ready</choice>
+    <choice id="4">yon</choice>
+    <reason id="1">This is the first question</reason>
+    <reason id="2">Too close</reason>
+    <reason id="3">Is a crowd</reason>
+    <reason id="4">Not for this</reason>
+  </question>
+  <question id="4">4
+    <text>What is least important?</text>
+    <choice id="1">ichi</choice>
+    <choice id="2">ni</choice>
+    <choice id="3">san</choice>
+    <choice id="4">Your wealth</choice>
+    <reason id="1">This is the first question</reason>
+    <reason id="2">Too close</reason>
+    <reason id="3">Is a crowd</reason>
+    <reason id="4">Not for this</reason>
+  </question>
+  <question id="5">2
+    <text>What is least important?</text>
+    <choice id="1">ichi</choice>
+    <choice id="2">ni</choice>
+    <choice id="3">san</choice>
+    <choice id="4">Your wealth</choice>
+    <reason id="1">This is the first question</reason>
+    <reason id="2">Too close</reason>
+    <reason id="3">Is a crowd</reason>
+    <reason id="4">Not for this</reason>
+  </question>
+  <question id="6">3
+    <text>What is least important?</text>
+    <choice id="1">ichi</choice>
+    <choice id="2">ni</choice>
+    <choice id="3">san</choice>
+    <choice id="4">Your wealth</choice>
+    <reason id="1">This is the first question</reason>
+    <reason id="2">Too close</reason>
+    <reason id="3">Is a crowd</reason>
+    <reason id="4">Not for this</reason>
+  </question>
+</test>
+
+<test id="4">
+  <question id="1">4
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="2">3
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="3">2
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="4">2
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="5">3
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="6">1
+    <text>-</text>
+    <choice id="1">-</choice>
+    <choice id="2">-</choice>
+    <choice id="3">-</choice>
+    <choice id="4">-</choice>
+    <reason id="1">-</reason>
+    <reason id="2">-</reason>
+    <reason id="3">-</reason>
+    <reason id="4">-</reason>
+  </question>
+</test>
+
+<test id="5">
+  <question id="1">1
+    <text>What is the story topic?</text>
+    <choice id="1">It’s advice, learn to write programs</choice>
+    <choice id="2">Studying how to use programs</choice>
+    <choice id="3">My major at university</choice>
+    <choice id="4">How to make a program or app</choice>
+    <reason id="1">-</reason>
+    <reason id="2">It isn't "how", it says you "should" study.</reason>
+    <reason id="3">My university time is a small part</reason>
+    <reason id="4">It is not "how", it says you "should" learn</reason>
+  </question>
+  <question id="2">3
+    <text>Why am I lucky?</text>
+    <choice id="1">I have many different friends</choice>
+    <choice id="2">I can do almost any job</choice>
+    <choice id="3">I used a computer when I was young</choice>
+    <choice id="4">Everyone should learn to program</choice>
+    <reason id="1">This is not the topic of the story</reason>
+    <reason id="2">It only "helps" in jobs</reason>
+    <reason id="3">-</reason>
+    <reason id="4">This is everyone, the question is "I"</reason>
+  </question>
+  <question id="3">4
+    <text>Who can use this skill?</text>
+    <choice id="1">People who make bags and teachers</choice>
+    <choice id="2">I have used this skill a lot</choice>
+    <choice id="3">Everyone should learn it</choice>
+    <choice id="4">Almost anyone</choice>
+    <reason id="1">These are just examples</reason>
+    <reason id="2">Not just me, also other people</reason>
+    <reason id="3">"Who can" is different from "should"</reason>
+    <reason id="4">-</reason>
+  </question>
+  <question id="4">3
+    <text>How should you learn it?</text>
+    <choice id="1">It can help at almost any job</choice>
+    <choice id="2">It will be interesting</choice>
+    <choice id="3">Free online tutorials</choice>
+    <choice id="4">Cellphone apps or little programs</choice>
+    <reason id="1">This is "why" you should learn</reason>
+    <reason id="2">This is "why" you should learn</reason>
+    <reason id="3">-</reason>
+    <reason id="4">This is "what" you should learn</reason>
+  </question>
+</test>
+</answers>

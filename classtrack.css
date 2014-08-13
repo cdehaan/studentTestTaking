@@ -1,0 +1,331 @@
+body {
+margin: 0px;padding: 0px;overflow:hidden;
+font-family:STHeitiSC-Light,Calibri Light,Helvetica,HelveticaNeue,arial,sans-serif;
+font-weight:lighter;
+}
+
+div.answerBar {
+position:absolute; left:10px; right:10px;
+line-height:94%;
+border:3px solid rgba(0,0,0, .25);
+border-top-color: rgba(255,255,255, .25);
+border-left-color: rgba(255,255,255, .25);
+box-shadow: inset rgba(255, 255, 255, 0) 0 0 20px rgba(255, 255, 255, 0), 2px 2px 5px rgba(255, 255, 255, 0);
+border-radius:5px;
+white-space: nowrap;
+/*
+overflow:hidden;
+text-shadow: 2px 2px rgba(128, 128, 128, .5)
+background-image:url('white_leather.png');
+*/
+}
+
+div.answerInset {
+position:absolute; left:20px;
+z-index:10;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+/*
+font-family:Arial, Helvetica, sans-serif;
+border:2px solid rgba(128, 128, 128, .5); border-radius:25px;
+padding-top:5px;
+background-image:url('white_leather.png');
+box-shadow: 2px 2px 5px rgba(255, 255, 255, 0);
+text-shadow: 2px 2px rgba(128, 128, 128, .5); text-align:center;
+*/
+}
+
+img.backgroundImage {
+opacity:0.3;
+position:absolute; top:0px; left:0px; height:100%; width:100%;
+}
+
+div.summaryDiv {
+position:absolute;
+width:100%; bottom:0px; height:15%;
+text-align:center; vertical-align: bottom;
+font-family:Calibri Light; text-shadow: 2px 2px rgba(128, 128, 128, .5);
+}
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding-top:  10px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	border-radius: .5em;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	text-align:center;
+}
+
+div.choiceDiv {
+	background: #f0edcc;
+	background-clip: padding-box;          /* Background stops at border */
+	border: 4px solid rgba(255,255,255,.2);
+	border-radius: 3px;
+	box-shadow:
+		 0    0   1px  rgba(255,255,255,.8), /* Bright outer highlight */
+		 0    0   3px  rgba(0,0,0,.8),       /* Outer shadow */
+		 1px  1px 0    rgba(0,0,0,.8) inset, /* Inner shadow (top + left) */
+		-1px -1px 0    rgba(0,0,0,.8) inset; /* Inner shadow (bottom + right) */
+	padding: 10px;
+}
+
+.orange {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.orangeDark {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+
+.white {
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+	background: -moz-linear-gradient(top,  #fff,  #ccc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cccccc');
+}
+.whiteDark {
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+
+.gray {
+	color: #e9e9e9;
+	border: solid 1px #555;
+	background: #6e6e6e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));
+	background: -moz-linear-gradient(top,  #888,  #575757);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+}
+.grayDark {
+	background: #616161;
+	background: -webkit-gradient(linear, left top, left bottom, from(#757575), to(#4b4b4b));
+	background: -moz-linear-gradient(top,  #757575,  #4b4b4b);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#757575', endColorstr='#4b4b4b');
+}
+
+
+
+/* The biggest box, represents one question and its guess */
+.questionAndGuess {
+	/* Size & position */
+	width: 100%; /* This will be changed in JavaScript */
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	padding: 10px;
+	position: relative; /* For the submit button positioning */
+	height:139px;
+
+	/* Styles */
+	box-shadow: 
+		0 0 1px rgba(0, 0, 0, 0.3), 
+		0 3px 7px rgba(0, 0, 0, 0.3), 
+		inset 0 1px rgba(255,255,255,1),
+		inset 0 -3px 2px rgba(0,0,0,0.25);
+	border-radius: 5px;
+	background: linear-gradient(#eeefef, #ffffff 10%);
+}
+
+
+/* One text field */ 
+.questionAndGuess .field {
+	position: relative; /* For the small single letter box positioning */
+	margin-left:149px;
+	overflow:hidden; /* Maybe not needed */
+}
+
+
+/* Small box holding one letter */
+.questionAndGuess .field i {
+	/* Size and position */
+	left: 0px;
+	top: 8px;
+	position: absolute;
+	height: 33px;
+	width: 106px;
+	padding-right:6px;
+
+	/* Line */
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 0 0 rgba(255, 255, 255, 0.7);
+
+	/* Styles */
+	color: #777777;
+	text-align: right;
+	line-height: 33px;
+	transition: all 0.3s ease-out;
+	pointer-events: none;
+
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.questionAndGuess input {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 19px;
+	font-weight: 400;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	overflow:hidden;
+
+	/* Size and position */
+	width: 100%; /* This may be changed in JavaScript */
+	padding: 8px 10px 10px 121px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height:36px;
+
+	/* Styles */
+	border: none; /* Remove the default border */
+	box-shadow: 
+		inset 0 0 5px rgba(0,0,0,0.1),
+		inset 0 3px 2px rgba(0,0,0,0.1);
+	border-radius: 3px;
+	background: #f9f9f9;
+	color: #777;
+	transition: color 0.3s ease-out;
+}
+
+/* White box/border for the button */
+.questionAndGuess .submit {
+	/* Size and position */
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	top: 37px;
+	right: -25px;
+	padding: 10px;
+	z-index: 2;
+
+	/* Styles */
+	background: #ffffff;
+	border-radius: 50%;
+	box-shadow: 
+		0 0 2px rgba(0,0,0,0.1),
+		0 3px 2px rgba(0,0,0,0.1),
+		inset 0 -3px 2px rgba(0,0,0,0.2);
+}
+
+
+/* Beautiful blue circle */
+.questionAndGuess button {
+	/* Size and position */
+	width: 100%;
+	height: 100%;
+	margin-top: -1px;
+	position:relative;
+
+	/* Icon styles */
+	font-size: 40px;
+	color: white;
+
+	/* Styles */
+	border: none; /* Remove the default border */
+	outline:none;
+	border-radius: inherit;
+	background: linear-gradient(#52cfeb, #42A2BC);
+	box-shadow: 
+		inset 0 1px 0 rgba(255,255,255,0.3),
+		0 1px 2px rgba(0,0,0,0.35),
+		inset 0 3px 2px rgba(255,255,255,0.2),
+		inset 0 -3px 2px rgba(0,0,0,0.1);
+
+	cursor: pointer;
+}
+
+.hideAnimation {
+-webkit-animation: hideAnimationClass 0.5s; /* Chrome, Safari, Opera */
+-webkit-animation-fill-mode:forwards; /* Safari and Chrome */
+
+animation: hideAnimationClass 0.5s;
+animation-fill-mode:forwards;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes hideAnimationClass {
+from {opacity:1;}
+to {opacity:0;}
+}
+
+/* Standard syntax */
+@keyframes hideAnimationClass {
+from {opacity:1;}
+to {opacity:0;}
+}
+
+/* TODO this can maybe be re-written just as a reverse */
+.showAnimation {
+-webkit-animation: showAnimationClass 0.5s; /* Chrome, Safari, Opera */
+-webkit-animation-fill-mode:forwards; /* Safari and Chrome */
+
+animation: showAnimationClass 0.5s;
+animation-fill-mode:forwards;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes showAnimationClass {
+from {opacity:0;}
+to {opacity:1;}
+}
+
+/* Standard syntax */
+@keyframes showAnimationClass {
+from {opacity:0;}
+to {opacity:1;}
+}
+
+.expandQuestionBox  {
+-webkit-animation: expandQuestionBoxClass 1s; /* Chrome, Safari, Opera */
+-webkit-animation-fill-mode:forwards; /* Safari and Chrome */
+
+animation: expandQuestionBoxClass 1s;
+animation-fill-mode:forwards;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes expandQuestionBoxClass {
+from {height:1px;} /* Will be changed in JavaScript */
+to {height:10px;} /* Will be changed in JavaScript */
+}
+
+/* Standard syntax */
+@keyframes expandQuestionBoxClass {
+from {height:1px;} /* Will be changed in JavaScript */
+to {height:10px;} /* Will be changed in JavaScript */
+}
+
+.shrinkQuestionBox  {
+-webkit-animation: shrinkQuestionBoxClass 1s; /* Chrome, Safari, Opera */
+-webkit-animation-fill-mode:forwards; /* Safari and Chrome */
+
+animation: shrinkQuestionBoxClass 1s;
+animation-fill-mode:forwards;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes shrinkQuestionBoxClass {
+from {height:1px;} /* Will be changed in JavaScript */
+to {height:10px;}
+}
+
+/* Standard syntax */
+@keyframes shrinkQuestionBoxClass {
+from {height:1px;} /* Will be changed in JavaScript */
+to {height:10px;}	
+}
